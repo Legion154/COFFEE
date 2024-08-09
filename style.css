@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #222222;
+    --pale-black: #777777;
+    --pale-yellow: #B68834;
+    --pale-white: #f8f8f8ff;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    padding: 16px 190px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(16, 16, 16, 50%);
+    backdrop-filter: blur(20px);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+header .head1 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    word-spacing: 2px;
+    opacity: 90%;
+}
+
+header .head2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .head2 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    gap: 25px;
+    color: var(--white);
+    opacity: 90%;
+}
+
+header .head2 ul select {
+    color: var(--white);
+    background: none;
+    width: 70px;
+}
+
+header .head2 ul select option {
+    color: var(--black);
+}
+
+.back img {
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100vh;
+}
+
+.back2 img {
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
+    width: 100%;
+    height: 9%;
+}
+
+/* CSS - MAIN - START 1 */
+
+.Start {
+    padding: 0 190px;
+    margin: 26px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    color: var(--white);
+}
+
+.Start h5 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.Start p {
+    width: 55%;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 75px;                 
+}
+
+.Start .btn {
+    padding: 9px 40px;
+    border-radius: 5dvi;
+    color: var(--black);
+    border: 1px hidden;
+}
+
+/* HTML - MAIN - TELECAST 2 */
+
+.Telecast {
+    padding: 400px 190px 100px 190px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    color: var(--black);
+}
+
+.Telecast div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.Telecast div span:first-child {
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.Telecast div h3 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    width: 85%;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.Telecast div span:nth-child(3) {
+    font-size: 14px;
+}
+
+.Telecast div p {
+    color: var(--pale-black);
+    margin: 18px 0;
+    font-size: 14px;
+    opacity: 80%;
+}
+
+.Telecast iframe {
+    border-radius: 10px;
+}
+
+/* CSS - MAIN - SERVE 3 */
+
+.serve {
+    padding: 130px 190px;
+    background: var(--pale-white);
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.serve .spart1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.serve .spart1 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.serve .spart1 span {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+
+.serve .spart2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.serve .spart2 .card_list1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.serve .spart2 .card_list2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.serve .spart2 .card_list3 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.spart2 .card1 {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.spart2 .card2 {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.spart2 .card3 {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.spart2 .card4 {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.spart2 .card5 {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.spart2 .card6 {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.spart2 .card7 {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.spart2 .card8 {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.spart2 .card9 {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+
+
+.spart2 .card1 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spart2 .card2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spart2 .card3 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spart2 .card4 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spart2 .card5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spart2 .card6 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spart2 .card7 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spart2 .card8 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spart2 .card9 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.spart2 .card1 div h4 {
+    font-size: 18px;
+}
+
+.spart2 .card1 p {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+.spart2 .card2 div h4 {
+    font-size: 18px;
+}
+
+.spart2 .card2 p {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+.spart2 .card3 div h4 {
+    font-size: 18px;
+}
+
+.spart2 .card3 p {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+.spart2 .card4 div h4 {
+    font-size: 18px;
+}
+
+.spart2 .card4 p {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+.spart2 .card5 div h4 {
+    font-size: 18px;
+}
+
+.spart2 .card5 p {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+.spart2 .card6 div h4 {
+    font-size: 18px;
+}
+
+.spart2 .card6 p {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+.spart2 .card7 div h4 {
+    font-size: 18px;
+}
+
+.spart2 .card7 p {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+.spart2 .card8 div h4 {
+    font-size: 18px;
+}
+
+.spart2 .card8 p {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+.spart2 .card9 div h4 {
+    font-size: 18px;
+}
+
+.spart2 .card9 p {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+
+.spart2 span {
+    color: var(--pale-yellow);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* CSS - MAIN 4 - SERVE 2 */
+
+.serve2 {
+    padding: 130px 190px;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.serve2 .s2-part1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.serve2 .s2-part1 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.serve2 .s2-part1 span {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+
+.serve2 .s2-part2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.serve2 .s2-part2 .card2-list1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.serve2 .s2-part2 .card2-list1 .img1 {
+    width: 380px;
+    height: 300px;
+}
+
+.serve2 .s2-part2 .card2-list1 .img2 {
+    width: 380px;
+    height: 412px;
+}
+
+.serve2 .s2-part2 .card2-list2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+.serve2 .s2-part2 .card2-list2 .img {
+    width: 690px;
+    height: 440px;
+}
+
+.serve2 .s2-part2 .card2-list3 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.serve2 .s2-part2 .card2-list3 .img1 {
+    width: 329px;
+    height: 260px;
+}
+
+.serve2 .s2-part2 .card2-list3 .img2 {
+    width: 329px;
+    height: 260px;
+}
+
+.serve2 .s2-part2 .card2-list__2--3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ /* CSS - MAIN 3 - SERVE 3 */
+
+.serve3 {
+    padding: 130px 190px 100px 190px;
+    background: var(--pale-yellow);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.serve3 .s2-part1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.serve3 .s2-part1 h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.serve3 .s2-part1 span {
+    font-size: 14px;
+}
+
+.serve3 .serve3-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.serve3 .survival {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.serve3 .survival .grade1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.serve3 .survival p {
+    width: 105%;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.serve3-bottom .stars {
+    font-size: 14px;
+}
+
+.stars .on {
+    color: orange;
+}
+
+.serve3 .creative {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.serve3 .creative .grade2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.serve3 .creative p {
+    width: 105%;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.serve3 .grades {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.serve3 .grades .grade1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.serve3 .grades .grade2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.serve3 .grades .grade3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.serve3 .grades .grade4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.serve3 .grades h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.serve3 .grades span {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+/* CSS - MAIN 4 - SERVE 4 */
+
+.serve4 {
+    padding: 130px 190px;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.serve4 .s4-part1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.serve4 .s4-part1 h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.serve4 .s4-part1 span {
+    font-size: 14px;
+    color: var(--pale-black);
+}
+
+.serve4 .s4-parts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.serve4 .s4-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.serve4 .s4-part .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.serve4 .s4-part .buttons .btn {
+    padding: 5px 20px;
+    border-radius: 5dvi;
+    border: 1px solid #dcdcdc;
+    color: var(--black);
+    background: var(--white);
+}
+
+.serve4 .s4-part .text {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.serve4 .s4-part .text h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.serve4 .s4-part .text p {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--pale-black);
+}
+
+.serve4 .s4-part .text span {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+/* CSS - FOOTER */
+
+footer {
+    padding: 150px 190px;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+footer .part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+footer .part1 h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .part1 p {
+    font-size: 14px;
+    font-weight: 300;
+    width: 56%;
+    line-height: 27px;
+}
+
+footer .part1 span {
+    font-size: 14px;
+    font-weight: 300;
+    width: 57%;
+    line-height: 27px;
+}
+
+footer .part2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+footer .part2 h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer .part2 span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* -----------------------HOVER--------------------------- */
+
+.head2 img:hover {
+    cursor: pointer;
+}
+
+.head2 ul li:hover {
+    cursor: pointer;
+}
+
+.Start .btn:hover {
+    cursor: pointer;
+    background: transparent;
+    transition: 300ms;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+.buttons .btn:hover {
+    color: var(--white);
+    background-color: var(--pale-yellow);
+    cursor: pointer;
+    transition: 300ms;
+}
